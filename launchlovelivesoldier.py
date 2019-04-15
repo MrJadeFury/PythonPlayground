@@ -1,5 +1,5 @@
 #Variables
-rickrolllink = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+soldiergamelink = 'https://www.youtube.com/watch?v=6_YUxyhwk2I'
 
 #imports
 import webbrowser
@@ -8,17 +8,18 @@ import pyautogui
 import pywinauto
 
 #Open Never Gonna Give You Up
-webbrowser.open(rickrolllink)
+webbrowser.open(soldiergamelink)
 
 #Increase to Max Volume
-for x in range(0, 40):
+for x in range(0, 60):
     pyautogui.press('volumeup')
 
 #Wait 1 Second
-time.sleep(3)
+time.sleep(5)
 
 #Make It Full Screen
 pyautogui.press('F')
 
 #Finish Program
 print("Program Complete. GET RICK ROLLED KEKEKEK!")
+
