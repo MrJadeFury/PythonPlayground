@@ -70,4 +70,5 @@ def insertion_sort(arr, simulation=False):
             intarray[pos] = intarray[pos-1]
             pos = pos-1
         intarray[pos] = cursor
-    print ("Sorted Array: " + intarray)
+insertion_sort(intarray)
+print ("Sorted Array: " + str(intarray))
